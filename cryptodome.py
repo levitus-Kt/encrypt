@@ -28,7 +28,7 @@ class Cipher():
         return encrypt_login, encrypt_passwd
         
 
-    def decrypt(login, passwd, encrypt_login, encrypt_passwd, derived_key, iv):
+    def decrypt(encrypt_login, encrypt_passwd, derived_key, iv):
         """
         Расшифрока логина пароля алгоритмом AES
         """
