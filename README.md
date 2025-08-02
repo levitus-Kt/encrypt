@@ -46,10 +46,38 @@ encrypt
 
 3. Введите пароль (ввод скрыт)
 
+## Тестирование
+
+Для запуска тестов используется pytest.
+
+`pytest tests`
+
+Содержимое тестов:
+
+test_main.py
+
+- test_main: тестирует выбор опции меню
+
+- test_keySize: тестирует ввод длины ключа
+
+- test_encryptData: проверка шифровки данных
+
+- test_decryptData: проверка корректности расшифровки
+
+test_user.py
+
+- test_notifications: проверяет поведение уведомлений пользователя
+
 # Примеры
 
-<img width="671" height="295" alt="image" src="https://github.com/user-attachments/assets/65dc9216-e11c-4ae9-ae52-5f6672a06df0" />
+Запуск программы и выбор действия
 
-<img width="502" height="179" alt="image" src="https://github.com/user-attachments/assets/c5350fe6-f54c-4bd7-be0b-9783a5662424" />
+<img width="996" height="362" alt="image" src="https://github.com/user-attachments/assets/1a1ae664-022a-4406-b8c2-4c8d8a0a7f38" />
 
-<img width="582" height="180" alt="image" src="https://github.com/user-attachments/assets/b79f9671-4977-47d0-a499-19e23ed4a33f" />
+Ввод ключа, логина и пароля
+
+<img width="1352" height="678" alt="image" src="https://github.com/user-attachments/assets/6957ab91-4394-4c38-ac94-f64f15bf7f0b" />
+
+Расшифровка
+
+<img width="1281" height="451" alt="image" src="https://github.com/user-attachments/assets/6687121d-fa5a-459d-9681-60701328e83a" />
