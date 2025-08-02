@@ -4,6 +4,12 @@
 
 encrypt
 
+├── tests           # Директория с тестами
+
+. . ├── test_main.py           # Тест выбора опции меню, шифровки/расшифровки данных
+
+. . └── test_user.py       # Тест поведения уведомлений пользователя
+
 ├── main.py           # Точка входа, управление логикой программы
 
 ├── cryptodome.py     # Шифрование/дешифрование AES
@@ -72,7 +78,7 @@ test_user.py
 
 Запуск программы и выбор действия
 
-<img width="996" height="362" alt="image" src="https://github.com/user-attachments/assets/1a1ae664-022a-4406-b8c2-4c8d8a0a7f38" />
+<img width="796" height="282" alt="image" src="https://github.com/user-attachments/assets/1a1ae664-022a-4406-b8c2-4c8d8a0a7f38" />
 
 Ввод ключа, логина и пароля
 
