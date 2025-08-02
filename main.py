@@ -28,10 +28,11 @@ def keySize():
         case 2: key_size = 24
         case 3: key_size = 32
 
-    passwd = 1
-    while passwd == 1:
-        login = input("Введите логин: ")
-        passwd = User.inputPasswd()
+    #Ввод логина и пароля пользователем и их проверка на корректность
+    login = User.inputLogin()
+    passwd = User.inputPasswd()
+
+    User.notifications(enterData=True)
     
     encryptData(key_size, login, passwd)
 

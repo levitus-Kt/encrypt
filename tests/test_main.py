@@ -42,10 +42,6 @@ def test_keySize(monkeypatch, key_size, expected_result):
     (16, 'jfjfjfjfjffjfj', '123456789', None),
     (24, 'homiho', "123", None),
     (1, 'hom', "1", 1),
-    # ('rating>4', None),
-    # ('price>0', None),
-    # ('price<0', "Нет данных в этом столбце с такими параметрами\n"),
-    # ('p<0', "Заголовка p нет в файле\n"),
 ])
 def test_encryptData(key_size, login, passwd, expected_result):
     assert encryptData(key_size, login, passwd) == expected_result
