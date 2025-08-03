@@ -34,10 +34,6 @@ encrypt
 
 Необходим python 3.10 (или выше) и библиотека pycryptodome
 
-`pip3 install pycryptodome`
-
-или
-
 `pip3 install -r requirements.txt`
 
 После установки запустите файл main.py
